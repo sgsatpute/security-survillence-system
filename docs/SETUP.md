@@ -66,6 +66,10 @@ Create an event named `motion_detected` if notification logging is required.
 | GPIO4 | ESP32-CAM onboard flash LED |
 | GPIO0 to GND | Only while uploading code |
 
+PIR sensor wiring diagram:
+
+![PIR circuit](images/pir-circuit.png)
+
 For programming, connect the FTDI adapter:
 
 | FTDI | ESP32-CAM |
@@ -76,6 +80,10 @@ For programming, connect the FTDI adapter:
 | GND | GND |
 
 After upload, disconnect GPIO0 from GND and reset the ESP32-CAM.
+
+Programming wiring diagram:
+
+![Programming circuit](images/programming-circuit.png)
 
 ## Runtime Behavior
 

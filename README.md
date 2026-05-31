@@ -58,6 +58,20 @@ The repository contains a sanitized Arduino sketch. Live Wi-Fi passwords, Blynk 
 `-- README.md
 ```
 
+## Code File
+
+Main Arduino sketch:
+
+```text
+src/security_surveillance/security_surveillance.ino
+```
+
+Supporting files:
+
+- `src/security_surveillance/app_httpd.cpp` starts the capture and stream web endpoints.
+- `src/security_surveillance/camera_pins.h` defines the AI Thinker ESP32-CAM pin map.
+- `src/security_surveillance/secrets.example.h` shows the required private configuration values.
+
 ## Setup
 
 1. Install Arduino IDE.
@@ -70,6 +84,10 @@ The repository contains a sanitized Arduino sketch. Live Wi-Fi passwords, Blynk 
 8. Connect GPIO0 to GND, upload the sketch, then disconnect GPIO0 from GND and reset the board.
 
 Detailed setup notes are in [docs/SETUP.md](docs/SETUP.md).
+
+## Output and Images
+
+Working output screenshots, circuit diagrams, and expected serial monitor output are documented in [docs/OUTPUT.md](docs/OUTPUT.md).
 
 ## Blynk Dashboard
 
