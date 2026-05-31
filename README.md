@@ -60,7 +60,13 @@ The repository contains a sanitized Arduino sketch. Live Wi-Fi passwords, Blynk 
 
 ## Code File
 
-Main Arduino sketch:
+Easy-to-find single-file Arduino sketch:
+
+```text
+SECURITY_SURVEILLANCE_CODE.ino
+```
+
+Modular Arduino sketch:
 
 ```text
 src/security_surveillance/security_surveillance.ino
